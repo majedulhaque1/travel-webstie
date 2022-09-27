@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 280px;
+    background-color: #C2B9B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.wrapper img {
+    width: auto;
+    height: auto;
+}
+
+@media (max-width : 600px) {
+    .container {
+        height: auto;
+    }
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper img {
+        padding: 20px 0;
+    }
+}

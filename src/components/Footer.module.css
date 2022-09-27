@@ -1,0 +1,147 @@
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    background-color: #000;
+    color: #fff;
+}
+.footerTop {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 100px;
+}
+.left_bottom {
+}
+.left_bottom div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 28px;
+}
+.left_bottom .icon {
+    color: rgba(255, 59, 0, 1);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.leftTwo {
+    flex: 1;
+}
+.leftTwo ul {
+    margin-top: 20px;
+}
+.leftTwo ul li{
+    list-style: none;
+    padding: 8px 0;
+}
+.left .para {
+    border-bottom: 1px solid rgba(255, 59, 0, 1);
+    padding: 30px 0;
+}
+.right {
+    flex: 1;
+}
+.right ul {
+    margin-top: 20px;
+}
+.right ul li {
+    list-style: none;
+    padding: 8px 0;
+}
+.rightTwo {
+    flex: 1;
+}
+.rightTwo input {
+    width: 340px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #000;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.rightTwo input[type = 'submit']{
+    background-color: rgba(255, 59, 0, 1);
+    color: #fff;
+}
+.footerBottom {
+    width: 60%;
+    height: 150px;
+    background-color: #fff;
+    margin-left: auto;
+    border-top-left-radius: 20px;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top-left-radius: 20px;
+}
+.socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 59, 0, 1);
+    padding-left: 60px;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 20px;
+}
+.wrapper h2 {
+    width: 150px;
+    height: 100%;
+    background-color: rgba(255, 59, 0, 1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-top-left-radius: 20px;
+}
+.wrapper p {
+    color: #000;
+    margin-left: auto;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-right: 60px;
+}
+
+@media (max-width : 768px) {
+    .left {
+        flex-basis: 300px;
+        margin: 30px 50px;
+    }
+    .leftTwo {
+        flex-basis: 300px;
+        margin: 30px 50px;
+    }
+    .right {
+        flex-basis: 300px;
+        margin: 30px 50px;
+    }
+    .rightTwo {
+        flex-basis: 300px;
+        margin: 30px 50px;
+    }
+    .footerBottom {
+        width: 100%;
+    }
+    .wrapper h2 {
+        border-radius: 0px;
+    }
+}

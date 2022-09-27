@@ -1,0 +1,42 @@
+.container {
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+}
+.wrapper {
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 140px;
+    box-shadow: 0px 1px 13px gray;
+}
+.outlet {
+    /* position: absolute; */
+}
+.wrapper div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrapper div button {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 15px 0px;
+    border: 0;
+    border-right: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+    outline: 0;
+}
+.wrapper div button:first-child {
+    border-top-left-radius: 10px;
+}
+.wrapper div button:last-child {
+    border-top-right-radius: 10px;
+}
+.wrapper div button a {
+    width: 100%;
+    text-decoration: none;
+    color: rgba(255, 59, 0, 1);
+    font-size: 18px;
+}
